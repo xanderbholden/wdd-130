@@ -1,37 +1,23 @@
 <body>
- <div id="content">
+<div id="content">
         <header>
     . . .
         </footer>
     </div>
 </body>
+#content {
+    max-width: 1600px;
+    margin: 0 auto; }
 
-p {
-    margin: 35px;
-}
+nav a { 
+    text-align: center;}
 
-
-div.a {
-    text-align: center;
-  }
-  
-  div.b {
-    text-align: left;
-  }
-  
-  div.c {
-    text-align: right;
-  }
-  
-  div.c {
-    text-align: justify;
-  }
-
-  nav a
-#hero-msg h1, #hero-msg h4
-.button-box
-main section
-
+#hero-msg h1,
+#hero-msg h4,
+.button-box,
+main section {
+    text-align: center; }
+ 
 <section class="rapids-card">
     <img class="card-img" src="images/rapids.jpg" alt="rafting boat">
     <img class="icon" src="images/oars.png" alt="oars icon">
@@ -44,27 +30,63 @@ main section
     <p>Enjoy the breathtaking scenery. From valleys, meadows, canyons, and high peaks; it's way more than just the rapids. It's a great way to get away from it all and relax amongst all the beauty of the great outdoors. </p>
     <a class='join' href="rivers.html">Join Us</a>
 </section>
-
 #background {
     height: 725px;}
-  
+
 body {
-    background-color: #fcfbfb; 
+    background-color: #2b4162; 
 }
 header {
-    background-color:rgba(20,30,13, .7);
-}
-nav a:hover {
-    background-color: black;
+    background-color:white ;
 }
 
 nav a:hover {
     background-color: black;
     color: #d9c2a3;
-}    
-.icon {
-    width: 80px;
+}   
+.home-title {  text-align: center;
+    color: black ;
 }
+
+h4 {  text-align: center;
+    color: black ;
+}
+
+.book, .join {  text-align: center;
+    color: black ;
+}
+
+.book:hover, .join:hover {  text-align: center;
+    color: black ;
+}
+
+.msg h2 {  text-align: center;
+    color: black ;
+}
+
+.msg p { text-align: center;
+    color: black ;
+   
+}
+
+footer { text-align: center;
+    color: black ;
+
+}
+
+footer a {
+    text-align: center;
+    color: #fcfbfb;
+    
+}
+
+footer a:hover {
+      text-decoration: underline;
+}
+.logo { width: 80px;}
+.icon { width: 80px;}
+#hero-img
+    .icon { width:80px;}
 nav a {
     text-align: center;
     color: #fcfbfb;
