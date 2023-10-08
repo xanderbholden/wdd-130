@@ -37,7 +37,8 @@ body {
     background-color: #2b4162; 
 }
 header {
-    background-color:white ;
+    background-color: #0d5e4a;
+    text-align: center;
 }
 
 nav a:hover {
@@ -46,69 +47,67 @@ nav a:hover {
   text-decoration: none;
   padding: 10px;
 }   
-.home-title {  text-align: center;
+.home-title { 
+    text-align: center;
+    color: white;
+    font-size: 4.2em
+}
+
+h4 {  
+    text-align: center;
     color: black ;
 }
 
-h4 {  text-align: center;
-    color: black ;
+.book, .join {  
+    text-align: center;
+    color: whitesmoke ;
+    text-decoration: none;
 }
 
-.book, .join {  text-align: center;
-    color: black ;
+.book:hover, .join:hover {
+    color: whitesmoke ;
 }
 
-.book:hover, .join:hover {  text-align: center;
-    color: black ;
+.msg h2 {  
+    background-color: #0d5e4a;
+    text-align: left;
+    color: whitesmoke ;
 }
 
-.msg h2 {  text-align: center;
-    color: black ;
+.msg p { 
+    text-align: center;
+    color: #efc808 ;
+    font-size: 1.6em;
 }
 
-.msg p { text-align: center;
-    color: black ;
-   
-}
 
-footer { text-align: center;
-    color: black ;
-
-}
-
-footer a {
+.logo { width: 120px;}
+.icon { width: 90px;}
+#hero-img
+    { width: 450px;
+    text-align: left;}
+nav a {
     text-align: center;
     color: #fcfbfb;
+    text-decoration: none;
+}    
+
+footer { 
+    text-align: center;
+    color: #F08700 ;
+
+}
+
+footer p {
+    text-align: center;
+    color: #F08700;
+    font-size: 2.2em;
+    text-decoration: none;
     
 }
-
-footer a:hover {
-      text-decoration: underline;
-}
-.logo { width: 80px;}
-.icon { width: 50px;}
-#hero-img
-    .icon { width:80px;}
-nav a {
-    text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}
-footer p {
-    font-size: 1.2em;
-}    
 footer p a:hover {
-    text-decoration: underline;
-}    
-nav a {
+    background-color: #0d5e4a;
     text-align: center;
-    color: #fcfbfb;
-    text-decoration: none;
-}    
-footer p {
-    font-size: 1.2em;
-}    
-  
-footer p a:hover {
+    color: #F08700;
     text-decoration: underline;
-}                   
+}                    
