@@ -60,7 +60,6 @@ nav a:hover {
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 2em
     margin-top: 10px;
-
 }
 
 h4 {  
@@ -106,9 +105,15 @@ main section img {
 
 .logo { width: 120px;}
 .icon { width: 90px;}
-#hero-img
-    { width: 450px;
-    text-align: left;}
+#hero-img{
+    width: 450px;
+    text-align: center;
+    margin-top:50px;
+}
+#hero-image img {
+    max-width:100%;
+    height:auto;
+}
 nav a {
     text-align: center;
     color: #fcfbfb;
