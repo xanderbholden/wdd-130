@@ -35,6 +35,13 @@ main section {
 
 body {
     background-color: #2b4162; 
+    font-family: Raleway, Arial, Sans-serif;
+    font-size: 22px
+    margin:0;
+    padding:0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color: #0d5e4a;
@@ -50,7 +57,10 @@ nav a:hover {
 .home-title { 
     text-align: center;
     color: white;
-    font-size: 4.2em
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em
+    margin-top: 10px;
+
 }
 
 h4 {  
@@ -61,9 +71,19 @@ h4 {
 .book, .join {  
     text-align: center;
     color: whitesmoke ;
-    text-decoration: none;
+    text-decoration: 18px;
+    padding:15px 30px
+    margin-top: 50px;
+    border-radius: 5px;
+
 }
 
+.card-img{ 
+    border:10px solid #d9c2a3
+}
+main section img {
+    box-sizing: border-box;
+}
 .book:hover, .join:hover {
     color: whitesmoke ;
 }
@@ -71,13 +91,16 @@ h4 {
 .msg h2 {  
     background-color: #0d5e4a;
     text-align: left;
+    line-height: 1.5em;
     color: whitesmoke ;
+    padding: 35px
 }
 
 .msg p { 
     text-align: center;
     color: #efc808 ;
-    font-size: 1.6em;
+    font-size: .8em;
+    padding-bottom:25px 50px
 }
 
 
@@ -90,11 +113,13 @@ nav a {
     text-align: center;
     color: #fcfbfb;
     text-decoration: none;
+    padding: 35px;
 }    
 
 footer { 
     text-align: center;
     color: #F08700 ;
+    margin-top:200px;
 
 }
 
@@ -110,4 +135,7 @@ footer p a:hover {
     text-align: center;
     color: #F08700;
     text-decoration: underline;
-}                    
+}                  
+footer .social img {
+    padding-top:15px
+}
