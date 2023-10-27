@@ -5,9 +5,21 @@
         </footer>
     </div>
 </body>
-#content {
-    max-width: 1600px;
-    margin: 0 auto; }
+.content1: 
+justify-content: center;
+align-content: center;
+max-width: 1600px;
+margin: 0 auto; 
+
+.content2:
+justify-items: center;
+align-items: center;
+
+.content3:
+justify-content: center;
+align-content: center;
+justify-items: center;
+align-items: center;
 
 nav a { 
     text-align: center;}
