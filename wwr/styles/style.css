@@ -3,8 +3,7 @@
 
 header {
     display: grid;
-    grid-template-columns: 150px auto;
-}
+    grid-template-columns: 200px auto; }
             
         <header>
     . . .
@@ -36,6 +35,17 @@ header {
     justify-self:center; 
     align-self: center;
 }
+#hero-box,
+#hero-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#hero-box img,
+#hero-img img {
+    max-width: 100%; 
+    height: auto;
+}
              
 .content1: 
 justify-content: center;
@@ -52,13 +62,6 @@ justify-content: center;
 align-content: center;
 justify-items: center;
 align-items: center;
-
-nav a { 
-    text-align: center;}
-nav {
-    display: flex;
-    justify-content: space-around;
-}
 
 #hero-msg h1,
 #hero-msg h4{
@@ -85,25 +88,43 @@ main section {
 
 body {
     background-color: #2b4162; 
-    font-family: Raleway, Arial, Sans-serif;
-    font-size: 22px
+    font-family: 'Raleway', 'Arial', Sans-serif;
     margin:0;
     padding:0;
-}
-h2 {
-    margin: 0;
 }
 header {
     background-color: #0d5e4a;
     text-align: center;
+    display:grid;
+    grid-template-columns: 150px auto;
+}
+
+#logo_link {
+    padding-top: 20px;
+    justify-self: center;
+    align-self: left;
+}
+nav {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    gap: 20px;
+}
+nav a {
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s;
 }
 
 nav a:hover {
-    padding:1em;
+  padding:1em;
   min-width: 120px;
   text-decoration: none;
   padding: 10px;
+  background-color: #0d5e4a;
 }   
+
 .home-title { 
     text-align: center;
     color: white;
