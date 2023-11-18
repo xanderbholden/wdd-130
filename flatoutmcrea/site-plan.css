@@ -21,9 +21,9 @@ Fonts are separated by a | */
   --paragraph-color-on-color: #ffba42; /* paragraph text on a colored background */ 
   --paragraph-background-color: #005378 ;
   --nav-link-color: #396E94;
-  --nav-background-color: #e6e31d;
+  --nav-background-color: #ffba42;
   --nav-hover-link-color: white;
-  --nav-hover-background-color: #;
+  --nav-hover-background-color: #grey;
 }
 
 /*  Look around below...but DON'T CHANGE ANYTHING! */
@@ -38,7 +38,9 @@ body {
 img {
   display: block;
   margin: 0 auto;
+  max-width: 300px;
 }
+
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
   color: var(--headline-color-on-white);
@@ -92,7 +94,6 @@ p {
 .accent2{
   background-color: var(--accent2-color);
 }
-
 p.colored {
   background-color: var(--paragraph-background-color);
   color: var(--paragraph-color-on-color);
