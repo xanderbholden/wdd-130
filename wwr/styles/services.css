@@ -15,12 +15,11 @@
     --paragraph-color-on-white: #144266; /* paragraph text on a white background */
     --paragraph-color-on-color: white; /* paragraph text on a colored background */
     --paragraph-background-color: #144266;
-    --nav-link-color: #144266;
+    --nav-link-color: #efca08;
     --nav-background-color:var(--accent2-color);
     --nav-hover-link-color: #144266;
-    --nav-hover-background-color: #ddfcad;
+    --nav-hover-background-color: white;
 }
-
 body {
     background-color: #fcfdfd;
     font-family: var(--paragraph-font);
@@ -28,18 +27,15 @@ body {
     margin: 0;
     padding: 0;
 }
-
 h2 {
     margin: 0;
 }
-
 header {
-    background-color: var(--secondary-color);
+    background-color: var(--primary-color);
     color: white;
     display: grid;
     grid-template-columns: 150px auto;
 }
-
 footer {
     background-color: var(--primary-color);
     color: white;
