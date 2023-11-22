@@ -21,7 +21,7 @@ nav a {
 } 
 nav a:hover,.book:hover,.join:hover {
     background-color:whitesmoke;
-    color:#0b1e33;
+    color:white;
 } 
 #logo_link { 
     padding-top: 5px;
@@ -56,7 +56,7 @@ nav a:hover,.book:hover,.join:hover {
     text-align:center;
 }
 h4,.msg h2{
-    color:#000;
+    color:white;
 }
 #hero-msg h4{
     text-align: center;
@@ -84,13 +84,13 @@ body {
 }
 .home-title { 
     text-align: center;
-    color: #2b4162;
+    color: white;
     font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
     font-size: 1.4 em;
     margin-top: 10px;
 }
 .home-grid {
-    background-color: #2b4162;
+    background-color: white;
     display:grid;
     grid-template-columns: repeat(10, 1fr);
 }
