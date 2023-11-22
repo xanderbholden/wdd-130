@@ -36,6 +36,24 @@ header {
     display: grid;
     grid-template-columns: 150px auto;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+nav a {
+    text-align: center;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    font-size: 1em;
+    padding: 35px;
+    transition: background-color 3px;
+    min-width: 120px;
+}
+nav a:hover {
+    background-color: var(--nav-hover-background-color);
+    color: var(--nav-hover-link-color);
+}
+
 footer {
     background-color: var(--primary-color);
     color: white;
@@ -44,27 +62,6 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-}
-
-footer a {
-    color: #ffffff;
-    text-decoration: none;
-}
-
-footer a:hover {
-    color: var(--nav-hover-background-color);
-}
-
-footer p {
-    font-size: 1.2em;
-}
-
-footer p a:hover {
-    text-decoration: underline;
-}
-
-footer .social img {
-    padding-top: 15px;
 }
 
 #content {
@@ -81,21 +78,6 @@ footer .social img {
     padding-top: 10px;
 }
 
-nav {
-    display: flex;
-    justify-content: space-around;
-}
-
-nav a {
-    text-align: center;
-    color: var(--nav-link-color);
-    text-decoration: none;
-    padding: 35px;
-}
-nav a:hover {
-    background-color: var(--nav-hover-background-color);
-    color: var(--nav-hover-link-color);
-}
 
 #logo_link {
     padding-top: 5px;
@@ -157,7 +139,7 @@ nav a:hover {
 
 .book {
     background-color: var(--nav-background-color);
-    color: var(--nav-link-color);
+    color: var(--nav-hover-background-color);
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -170,17 +152,16 @@ nav a:hover {
     color: var(--nav-hover-link-color);
 }
 
-.rivers {
+.services {
     padding: 50px;
 }
 
-.rivers h2 {
+.services h2 {
     color: var(--headline-color-on-color);
     font-family: var(--heading-font);
     text-align: center;
 }
-
-.rivers p {
+.services p {
     color: var(--paragraph-color-on-color);
     font-size: 0.8em;
     line-height: 1.5em;
@@ -222,7 +203,7 @@ nav a:hover {
 .wrapper1 .under-box {
     grid-column: 2/5;
     grid-row: 1 / span 4;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     z-index: -1;
 }
 
@@ -261,8 +242,25 @@ nav a:hover {
 .wrapper2 .under-box {
     grid-column: 1/4;
     grid-row: 1 / span 4;
-    background-color: var(--accent1-color);
+    background-color: var(--primary-color);
     z-index: -1;
+}
+footer a {
+    color: #ffffff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: var(--nav-hover-background-color);
+}
+footer p {
+    font-size: 1.2em;
+}
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
 /* Media Queries */

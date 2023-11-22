@@ -3,7 +3,7 @@
     margin:0 auto;
 }
 header {
-   background-color: #0d5e4a;
+   background-color: #2b4162;
     display: grid;
     grid-template-columns: 150px auto; 
 }
@@ -13,17 +13,15 @@ nav {
 }
 nav a {
     text-align: center;
-    font-size: 1.3em;
-    color: #fcfbfb;
+    color:#efc808;
     text-decoration: none;
     padding: 35px;
+    font-size: 1em;
     transition: background-color 3px;
-    background-color: #0d5e4a;
-    min-width: 120px;
 } 
 nav a:hover,.book:hover,.join:hover {
-    background-color:#efc808;
-    color:#FFF;
+    background-color:whitesmoke;
+    color:#2b4162;
 } 
 #logo_link { 
     padding-top: 5px;
@@ -92,7 +90,7 @@ body {
     grid-column: 1/11;
     grid-row: 4/9;
 }
-.logo { width: 90px;
+.logo { width: 80px;
 }
 #logo_link {
     padding-top: 5px;
@@ -162,7 +160,7 @@ main section img {
     box-sizing: border-box;
 }
 .book:hover, .join:hover {
-    color: whitesmoke ;
+    color: #2b4162 ;
 }
 .msg h2 {  
     background-color: #0d5e4a;
@@ -184,11 +182,8 @@ main section img {
 
 #hero-img {
     width: 100%;
-    text-align: center;
-    margin-top:50px;
+    height: 100%;
 }
-
-
 
 /* .......... footer.......*/
 footer { 
