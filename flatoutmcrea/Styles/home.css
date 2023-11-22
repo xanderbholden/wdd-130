@@ -144,9 +144,6 @@ h4 {
 main section img {
     box-sizing: border-box;
 }
-.book:hover, .join:hover {
-    color: #2b4162 ;
-}
 .msg h2 {  
     background-color: #0d5e4a;
     text-align: left;
